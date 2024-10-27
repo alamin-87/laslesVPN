@@ -1,0 +1,29 @@
+.navbar{
+@apply mt-[50px]
+}
+.nav_row{
+    @apply flex justify-between items-center
+}
+.nav_content{
+    @apply flex items-center
+}
+.contant{
+    @apply  hidden lg:block
+}
+.nav_content .content ul{
+    @apply flex gap-[40px]
+}
+.nav_content .button{
+    @apply flex gap-[20px] ml-[105px]
+}
+.nav_content .button button{
+    @apply w-[152px] h-[45px]
+}
+.content ul li a{
+    @apply text-[16px] text-[#4F5665] font-rubik font-[400]
+}
+.nav_content .button button{
+    @apply text-[16px] text-[#0B132A] font-rubik font-[500] hover:py-[12px] hover:px-[45px] hover:text-[#F53855] hover:border-solid
+    hover:border-[1px] hover:border-[#F53855] hover:rounded-[50px] transition-[.4s]
+    /* hover:py-[13px] , px-[45px], text-[#F53855], */
+}

@@ -1,0 +1,36 @@
+.slider_section{
+    @apply  pb-[120px] md:pb-[150px] lg:pb-[160px] overflow-hidden
+}
+.single_slid{
+    @apply w-[300px] md:w-[400px] border-solid border-[2px] border-[#DDDDDD] hover:border-[#F53838] transition-[.4s] rounded-[4px] ml-[38px] md:ml-[89px] lg:ml-[264px] mt-[12px] md:mt-[30px]
+}
+.single_slid_row1{
+    @apply flex mt-[16px] ml-[14px] md:mt-[30px] md:ml-[30px] items-center
+}
+.single_slid_row1 .name{
+    @apply ml-[20px]
+}
+.single_slid_row1 .name h2{
+    @apply text-[12px] md:text-[18px] text-[#0B132A] font-rubik font-[500]
+}
+.single_slid_row1 .name p{
+    @apply text-[10px] md:text-[14px] text-[#4F5665] font-rubik font-[500]
+}
+.review_count p{
+    @apply text-[12px] md:text-[18px] text-[#0B132A] font-rubik font-[500]
+}
+.review_count{
+    @apply flex gap-[6px] text-center ml-[80px] md:ml-[110px] items-center
+}
+.review_count .star_icon{
+    @apply text-sm md:text-xl text-[#FEA250]
+}
+.single_slid_row2{
+    @apply flex mt-[16px] ml-[14px] md:mt-[30px] md:ml-[30px] items-center
+}
+.single_slid_row2 p{
+    @apply w-[273px] md:w-[348px] text-[12px] md:text-[16px] text-[#0B132A] font-rubik font-[400] pb-[20px] md:pb-[30px]
+}
+.review_row2{
+    @apply flex
+}

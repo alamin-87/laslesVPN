@@ -1,0 +1,60 @@
+.footer_section{
+    @apply pb-[60px]
+}
+.row{
+    @apply bg-white w-[300px] md:w-[600px] lg:w-[1123px] mt-[30px] md:mt-[100px] shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] rounded-[12px]
+    flex flex-wrap pb-[18px] lg:ml-[178px]
+}
+.row_text h2{
+    @apply w-[220px] md:w-[350px] lg:w-[371px] text-[16px] md:text-[25px] lg:text-[35px] text-[#0B132A] font-rubik font-[500]
+}
+.row_text{
+    @apply mt-[10px] ml-[12px] md:mt-[14px] md:ml-[16px] lg:mt-[16px] lg:ml-[18px]
+}
+.row_text p{
+    @apply text-[12px] md:text-[16px]  text-[#4F5665] font-rubik font-[400] mt-[8px] md:mt-[12px] lg:mt-[20px] pb-[14px] lg:pb-[30px]
+}
+.row .button{
+    @apply py-[6px] px-[20px] md:py-[10px] md:px-[26px] lg:py-[18px] lg:px-[36px] bg-[#F53838] rounded-lg m-auto text-[12px] md:text-[16px] text-white font-rubik font-[700] lg:ml-[480px] active:scale-[1.1]
+    transition-[.4s] md:mt-[55px] lg:mt-[78px]
+}
+
+.footer_absolute{
+    @apply absolute top-[-100px] md:top-[-180px] lg:top-[-200px]
+}
+.footer_section{
+    @apply bg-[#F8F8F8] relative
+}
+.footer_row{
+    @apply pt-[160px] lg:pt-[180px] flex flex-wrap
+}
+.row_col1 p{
+    @apply w-[256px] md:w-[340px] text-[12px] md:text-[16px] text-[#4F5665] font-rubik font-[400] mt-[14px] md:mt-[20px]
+}
+.row_col1 p span{
+    @apply font-[500]
+}
+.col1_all_icon{
+    @apply flex gap-[20px]
+}
+.col1_icon{
+    @apply mt-[20px] mb-[20px] rounded-full bg-white w-[25px] h-[25px] lg:w-[40px] lg:h-[40px]  flex justify-center items-center shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]
+}
+.col1_icon .icon{
+    @apply text-[#F53838] lg:text-3xl
+}
+.row_text_col{
+    @apply flex gap-[33px] md:gap-[144px] lg:gap-[165px] lg:ml-[365px]
+}
+ .footer_row .row_text_col h2{
+    @apply text-[12px] md:text-[18px] text-[#0B132A] font-rubik font-[500]
+}
+.footer_row .row_text_col ul li a{
+    @apply text-[12px] md:text-[16px] text-[#4F5665] font-rubik font-[400]
+}
+.row_text_col ul{
+    @apply mt-[10px] gap-[8px] md:gap-[12px] 
+}
+.row_text_col ul li{
+    @apply md:mt-[12px] lg:mt-[18px]
+}

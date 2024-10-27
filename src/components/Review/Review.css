@@ -1,0 +1,10 @@
+
+.review_section{
+    @apply overflow-hidden pb-[40px]
+}
+.review_row1 h2{
+    @apply w-[282px] md:w-[447px] text-[26px] md:text-[35px] text-[#0B132A] font-rubik font-[500] text-center m-auto
+}
+.review_row1 p{
+    @apply w-[298px] md:w-[555px] text-[12px] md:text-[16px] text-[#4F5665] font-rubik font-[500] text-center m-auto mt-[12px] md:mt-[20px]
+}

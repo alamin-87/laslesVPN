@@ -1,0 +1,45 @@
+.plane_row1{
+    @apply flex flex-col justify-center
+}
+.plane_row1 h2{
+    @apply text-[26px] lg:text-[35px] text-[#0B132A] font-rubik font-[500] flex justify-center
+}
+.plane_row1 .row1_p{
+    @apply text-[12px] md:text-[16px] text-[#4F5665] font-rubik font-[400] text-center
+    md:mt-[20px] mt-[12px]
+}
+.plane_row2{
+    @apply flex flex-wrap justify-center lg:justify-between mt-[40px] md:mt-[60px] gap-[20px] lg:gap-0
+}
+.plane_row2 .single_card{
+    @apply w-[200px] md:w-[300px] shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]
+}
+.single_card img{
+    @apply flex justify-center items-center pt-[30px] pl-[30px] md:pt-[54px] md:pl-[78px] lg:pt-[92px] lg:pl-[80px]
+}
+.single_card h2{
+    @apply flex justify-center mt-[20px] md:mt-[30px] text-[14px] md:text-[18px] text-[#0B132A] font-rubik font-[500]
+}
+.single_card .icon{
+    @apply flex flex-col mt-[30px]
+}
+.single_card .icon1{
+    @apply flex pl-[28px] md:pl-[69px] items-center mt-[12px]
+}
+.single_card .icon_react{
+    @apply text-green-600 text-xl
+}
+.single_card p{
+    @apply text-[12px] md:text-[14px] text-[#4F5665] font-rubik font-[400] ml-[4px] md:ml-[12px]
+}
+.single_card .last_h2{
+    @apply flex justify-center mt-[20px] md:mt-[30px] text-[14px] md:text-[18px] text-[#0B132A] font-rubik font-[500] mt-[40px] md:mt-[60px]
+}
+.single_card button{
+    @apply py-[6px] px-[42px] md:py-[12px] md:px-[52px] border-solid border-[2px] border-[#F53838] rounded-full mt-[20px] mb-[30px] md:mt-[20px] md:mb-[50px] hover:bg-[#F53838]
+    transition-[.4s] text-[12px] md:text-[16px] text-[#F53838] font-rubik font-[500] hover:text-white
+}
+.single_card .button{
+    @apply flex justify-center
+}
+

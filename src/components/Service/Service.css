@@ -1,0 +1,27 @@
+.service_section{
+    @apply mt-[35px] lg:mt-[95px] pb-[56px] lg:pb-[126px]
+}
+.service_row{
+    @apply flex flex-wrap justify-between
+}
+.service_text{
+    @apply mt-[34px] lg:mt-[54px]
+}
+.service_text h2{
+    @apply w-[324px] lg:w-[383px] text-[25px] lg:text-[35px] text-black font-rubik font-[700]
+}
+.service_text .text_p{
+    @apply w-[333px] lg:w-[427px] text-[12px] md:text-[16px] text-black font-rubik font-[400] mt-[12px] md:mt-[20px]
+}
+.service_text .point{
+    @apply flex items-center
+}
+.service_text .point .done_icon{
+    @apply w-[16px] h-[16px] md:w-[20px] md:h-[20px] rounded-full bg-green-600 text-white text-xl flex items-center
+}
+.service_text .point .point_p{
+    @apply pl-[12px] text-[12px] md:text-[14px] text-[#4F5665] font-rubik font-[400]
+}
+.service_text .point {
+    @apply mt-[16px] md:mt-[23px]
+}

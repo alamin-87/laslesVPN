@@ -1,0 +1,40 @@
+.rexnav{
+    @apply relative lg:hidden
+}
+.res_nav_content{
+    @apply absolute w-[250px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] right-0 top-[36px] flex flex-col items-center py-[20px] overflow-hidden
+    rounded-[10px] bg-[#BCF2F6]
+}
+.res_content ul{
+    @apply flex flex-col gap-[12px]
+}
+.res_content ul li a{
+    @apply text-[16px] text-[#4F5665] font-rubik font-[400]
+}
+.res_button{
+    @apply flex gap-[6px] pt-[30px]
+}
+.res_nav_content .res_button button{
+    @apply w-[112px] h-[45px]
+}
+.res_nav_content .res_button button{
+    @apply text-[16px] text-[#0B132A] font-rubik font-[500] hover:py-[8px] hover:px-[25px] hover:text-[#F53855] hover:border-solid
+    hover:border-[1px] hover:border-[#F53855] hover:rounded-[50px] transition-[.4s]
+}
+.res_nav_content{
+    animation: resmenu 1s linear;
+}
+@keyframes resmenu {
+    0%{
+        opacity: 0;
+        top: 100%;
+        height: 0;
+        width: 0;
+    }
+    100%{
+        opacity: 1;
+        top: 130%;
+        height: 344px;
+        width: 250px;
+    }
+}

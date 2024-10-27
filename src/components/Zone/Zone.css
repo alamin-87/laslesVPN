@@ -1,0 +1,19 @@
+
+.zone_section{
+    @apply mt-[60px] md:mt-[72px] lg:mt-[150px]
+}
+.zone_row1 h2{
+    @apply w-[282px] md:w-[383px] text-[26px] md:text-[35px] text-[#0B132A] font-rubik font-[500] text-center m-auto
+}
+.zone_row1 p{
+    @apply w-[298px] md:w-[555px] text-[12px] md:text-[16px] text-[#4F5665] font-rubik font-[500] text-center m-auto mt-[12px] md:mt-[20px]
+}
+.zone_row2 img{
+    @apply flex justify-center m-auto mt-[60px] md:mt-[72px] lg:mt-[150px]
+}
+.zone_row3 img{
+    @apply w-[60px] h-[24px] md:w-[110px] md:h-[50px] lg:w-[220px] lg:h-[80px]
+}
+.zone_row3{
+    @apply flex flex-wrap justify-between items-center mt-[20px] md:mt-[72px] lg:mt-[150px] md:mb-[50px] mb-[20px]
+}

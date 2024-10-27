@@ -1,0 +1,53 @@
+.about{
+    @apply mt-[50px] lg:mt-[89px]
+}
+
+.about_row1{
+    @apply flex flex-wrap justify-between
+}
+.about_row1 .row1_img{
+    @apply mt-[30px] lg:mt-0
+}
+.row1_text h2{
+    @apply w-[310px] lg:w-[555px] text-[30px] lg:text-[50px] text-[#0B132A] font-rubik font-[700]
+}
+.row1_text h2 span{
+    @apply  font-[500]
+}
+.row1_text p{
+    @apply w-[314px] lg:w-[555px] text-[16px] text-[#4F5665] font-rubik font-[500] mt-[10px] lg:mt-[20px]
+}
+.row1_text button{
+    @apply py-[14px] px-[54px] lg:py-[17px] lg:px-[77px] bg-[#F53838] mt-[30px] lg:mt-[50px] text-[16px] text-white font-rubik font-[700] rounded-lg
+    active:scale-[1.1] transition-[.4s] shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]
+}
+
+
+.about_row2{
+    @apply mt-[70px] lg:mt-[103px] flex justify-between
+}
+.count_start{
+    @apply flex
+}
+
+.single_count{
+    @apply flex items-center
+}
+.single_count .icon{
+    @apply w-[25px] h-[25px] lg:w-[55px] lg:h-[55px] bg-[#FFECEC] rounded-full flex justify-center items-center text-[#F53838] text-xl lg:text-4xl
+}
+.single_count .count{
+    @apply ml-[10px] lg:ml-[36px]
+}
+.count_start{
+    @apply flex items-center
+}
+.single_count .count .count_start .pluse{
+    @apply text-[18px] lg:text-[35px] text-black font-rubik font-[500]
+}
+.count p{
+    @apply text-[14px] lg:text-[20px] text-[#4F5665] font-rubik font-[400]
+}
+.single_count .span{
+    @apply w-[1px] h-[40px] lg:h-[80px] bg-black ml-[15px] md:ml-[90px] lg:ml-[270px]
+}
